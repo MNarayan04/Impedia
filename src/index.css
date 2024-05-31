@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body *{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.dark{
+  background-color: #101720;
+  color: white !important;
+}
+.dark input, .dark textarea, .dark #nav-item *, .dark .MuiInputAdornment-positionEnd * ,.dark .MuiDialog-paper h2{
+  color: white !important;
+}
+.MuiFab-root.Mui-disabled{
+  background-color: rgba(198,198,198,0.6) !important;
+}
+.dark .MuiDialog-paper{
+  background-color: #161b22;
+}
+.dark .MuiDialog-paper p, .dark .MuiPickersCalendarHeader-dayLabel, .dark .MuiSelect-select{
+  color:white !important
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
